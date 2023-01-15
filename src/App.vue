@@ -1,17 +1,23 @@
 <template>
   <div id="app" class="bg-color">
-    <UserList/>
+    <LoginPage></LoginPage>
+    <UserList></UserList>
+    <RegisterPage></RegisterPage>
   </div>
 </template>
 
 <script>
-import UserList from './components/UserList.vue'
+//import LoginPage from './components/LoginPage.vue';
+//import UserList from './components/UserList.vue';
+import RegisterPage from './components/RegisterPage.vue';
+
 
 export default {
   name: 'App',
   components: {
-    UserList,
-  },
+    //UserList,
+    RegisterPage
+},
 }
 </script>
 
